@@ -8,22 +8,44 @@ h3 {
 }
 main {
     padding-left: 45px;
+    padding-right: 45px;
 }
-p, ul, li {
+p, ul, li, a {
     font-family: georgia;
+    color: #474747;
 }
+a {
+    color: black;
+}
+a:hover {
+    color: grey;
+}
+body {
+    background-color: teal;
+}
+
 #container {
     margin: auto;
     width: 800px;
-    background-color: teal;
+    background-color: #FFFFFF;
     padding-bottom: 50px;
 }
 #slash {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 header {
-    padding-top: 25px;
+    padding-top: 50px;
     padding-left: 45px;
+    padding-bottom: 15px;
+}
+#education {
+    padding-bottom: 15px;
+}
+#experience {
+    padding-bottom: 15px;
+}
+#skills {
+    padding-bottom: 15px;
 }
 .degree {
     font-style: italic;
@@ -45,6 +67,9 @@ header {
 }
 ul {
     padding-left: 50px;
+}
+#column2 {
+    float: right;
 }
 .dates {
     float: right;
