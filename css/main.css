@@ -1,0 +1,51 @@
+h1, h2, h3, li, ul, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h3 {
+    padding-top: 15px;
+}
+main {
+    padding-left: 45px;
+}
+p, ul, li {
+    font-family: georgia;
+}
+#container {
+    margin: auto;
+    width: 800px;
+    background-color: teal;
+    padding-bottom: 50px;
+}
+#slash {
+    margin-bottom: 15px;
+}
+header {
+    padding-top: 25px;
+    padding-left: 45px;
+}
+.degree {
+    font-style: italic;
+}
+#degree2 {
+    font-weight: bold;
+}
+#masters {
+    padding-bottom: 15px;
+}
+#madison {
+    padding-bottom: 15px;
+}
+#disney {
+    padding-bottom: 15px;
+}
+.company {
+    font-style: italic;
+}
+ul {
+    padding-left: 50px;
+}
+.dates {
+    float: right;
+}
