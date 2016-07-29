@@ -27,6 +27,7 @@ h3 {
     padding-top: 15px;
     color: teal;
 }
+
 h2 {
     color: lightgrey;
 }
@@ -208,8 +209,8 @@ a:focus {
     margin: 25px auto;
 }
 
-.wraper: before,
-.wraper: after {
+.wraper::before,
+.wraper::after {
     display: table;
     content: " ";
 }
