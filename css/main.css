@@ -295,15 +295,18 @@ a:focus {
     border-bottom: 8px solid #0d7878;
 }
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 320px) {
     header {
-        width: 50%;
+        width: 40%;
     }
     img {
-        margin-right: 75px;
+        margin-right: 40px;
     }
     main {
-        width: 50%;
+        width: 40%;
+    }
+    .dates {
+        float: none;
     }
     .wraper {
         width: 75%;
