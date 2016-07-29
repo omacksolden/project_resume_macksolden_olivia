@@ -40,6 +40,13 @@ body {
     background-image: url("http://static.tumblr.com/94bee9a368dc93abfa16573ec738cbb6/rwfvryu/0A7o1lwz5/tumblr_static_egufvnmqftw04gc4c04c4g8sc.jpg");
 }
 
+img {
+    margin-top: -15px;
+    float: right;
+    padding-right: 25px;
+    border-radius: 50%;
+}
+
 #container {
     margin: auto;
     width: 800px;
@@ -67,6 +74,11 @@ header h1 {
 header p,
 a {
     color: black;
+    font-size: 16px;
+}
+
+#contact {
+    padding-top: 25px;
 }
 
 
