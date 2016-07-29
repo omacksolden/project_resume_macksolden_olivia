@@ -3,3 +3,7 @@ $('#interesttitle').click(function () {
     // Toggles to show and hide list of interests on click
     });
 });
+
+$('#share').jsSocials({
+    shares: ['twitter', 'facebook', 'linkedin']
+});

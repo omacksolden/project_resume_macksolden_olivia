@@ -27,6 +27,7 @@ a {
     color: #474747;
 }
 
+
 a {
     color: black;
 }
@@ -94,11 +95,11 @@ a {
 }
 
 #madison {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 #disney {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .position {
@@ -123,7 +124,7 @@ ul {
 
 #interests {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 #interests li {
@@ -152,5 +153,10 @@ ul {
 }
 
 #interestlist ul {
+    text-align: center;
+}
+
+#share {
+    margin-top: 35px;
     text-align: center;
 }
