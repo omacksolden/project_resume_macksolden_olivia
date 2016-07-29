@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+.site-container {
+    max-width: 1200px;
+}
+
 h1,
 h2,
 h3,
