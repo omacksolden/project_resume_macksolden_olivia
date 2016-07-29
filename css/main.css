@@ -300,7 +300,7 @@ a:focus {
         width: 40%;
     }
     img {
-        margin-right: 40px;
+        margin-right: 25%;
     }
     main {
         width: 40%;
@@ -316,12 +316,33 @@ a:focus {
     }
 }
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 375px) {
     header {
         width: 50%;
     }
     img {
-        margin-right: 60px;
+        margin-right: 25%;
+    }
+    main {
+        width: 50%;
+    }
+    .dates {
+        float: none;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
+    }
+}
+
+@media all and (min-width: 414px) {
+    header {
+        width: 55%;
+    }
+    img {
+        margin-right: 25%;
     }
     main {
         width: 50%;
@@ -341,7 +362,7 @@ a:focus {
         width: 70%;
     }
     img {
-        margin-right: 40px;
+        margin-right: 10%;
     }
     main {
         width: 70%;
@@ -362,7 +383,7 @@ a:focus {
         width: 100%;
     }
     img {
-        margin-right: 40px;
+        margin-right: 25%;
     }
     main {
         width: 100%;
@@ -378,12 +399,33 @@ a:focus {
     }
 
 }
+@media all and (min-width: 768px) {
+    header {
+        width: 76%;
+    }
+    img {
+        margin-right: 25%;
+    }
+    main {
+        width: 70%;
+    }
+    .dates {
+        float: right;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
+    }
+}
+
 @media all and (min-width: 800px) {
     header {
         width: 100%;
     }
     img {
-        margin-right: 40px;
+        margin-right: 5%;
     }
     main {
         width: 100%;
