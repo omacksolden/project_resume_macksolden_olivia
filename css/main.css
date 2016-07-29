@@ -316,14 +316,83 @@ a:focus {
     }
 }
 
-@media all and (min-width: 850px) {
-    nav li {
-        width: calc(100% / 3);
+@media all and (min-width: 400px) {
+    header {
+        width: 50%;
+    }
+    img {
+        margin-right: 60px;
+    }
+    main {
+        width: 50%;
+    }
+    .dates {
+        float: none;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
+    }
+}
+@media all and (min-width: 540px) {
+    header {
+        width: 70%;
+    }
+    img {
+        margin-right: 40px;
+    }
+    main {
+        width: 70%;
+    }
+    .dates {
+        float: none;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
     }
 }
 
-@media all and (min-width: 1100px) {
-    header h1 {
-        font-size: 16px;
+@media all and (min-width: 650px) {
+    header {
+        width: 100%;
     }
+    img {
+        margin-right: 40px;
+    }
+    main {
+        width: 100%;
+    }
+    .dates {
+        float: right;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
+    }
+
+}
+@media all and (min-width: 800px) {
+    header {
+        width: 100%;
+    }
+    img {
+        margin-right: 40px;
+    }
+    main {
+        width: 100%;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
+    }
+
 }
