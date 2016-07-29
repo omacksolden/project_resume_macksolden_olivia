@@ -294,3 +294,33 @@ a:focus {
     border-right: 6px solid transparent;
     border-bottom: 8px solid #0d7878;
 }
+
+@media all and (min-width: 400px) {
+    header {
+        width: 50%;
+    }
+    img {
+        margin-right: 75px;
+    }
+    main {
+        width: 50%;
+    }
+    .wraper {
+        width: 75%;
+    }
+    #interesttitle {
+        width: 75%;
+    }
+}
+
+@media all and (min-width: 850px) {
+    nav li {
+        width: calc(100% / 3);
+    }
+}
+
+@media all and (min-width: 1100px) {
+    header h1 {
+        font-size: 16px;
+    }
+}
