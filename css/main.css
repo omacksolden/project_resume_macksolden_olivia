@@ -3,23 +3,29 @@ h1, h2, h3, li, ul, p {
     padding: 0;
     border: 0;
 }
+
 h3 {
     padding-top: 15px;
 }
+
 main {
     padding-left: 45px;
     padding-right: 45px;
 }
+
 p, ul, li, a {
     font-family: georgia;
     color: #474747;
 }
+
 a {
     color: black;
 }
+
 a:hover {
     color: grey;
 }
+
 body {
     background-color: teal;
 }
@@ -27,50 +33,95 @@ body {
 #container {
     margin: auto;
     width: 800px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding-bottom: 50px;
 }
+
 #slash {
     margin-bottom: 10px;
 }
+
 header {
     padding-top: 50px;
     padding-left: 45px;
     padding-bottom: 15px;
 }
+
 #education {
     padding-bottom: 15px;
 }
+
 #experience {
     padding-bottom: 15px;
 }
+
 #skills {
     padding-bottom: 15px;
 }
+
 .degree {
     font-style: italic;
 }
+
 #degree2 {
     font-weight: bold;
 }
+
 #masters {
     padding-bottom: 15px;
 }
+
 #madison {
     padding-bottom: 15px;
 }
+
 #disney {
     padding-bottom: 15px;
 }
+
 .company {
     font-style: italic;
 }
+
 ul {
     padding-left: 50px;
 }
+
 #column2 {
     float: right;
 }
+
 .dates {
     float: right;
+}
+
+#interests {
+    text-align: center;
+}
+
+#interests li {
+    list-style-type: none;
+}
+
+#interests ul {
+    padding-top: 15px;
+}
+
+#interesttitle {
+    text-align: center;
+    border: 1px solid;
+    width: 375px;
+    margin: auto;
+}
+
+#interesttitle {
+    padding-bottom: 15px;
+}
+
+#interestslist {
+    display: none;
+}
+
+#interestlist ul {
+    text-align: center;
 }
