@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -32,11 +42,11 @@ a {
 
 
 a {
-    color: black;
+    color: #000000;
 }
 
 a:hover {
-    color: grey;
+    color: #ffffff;
 }
 
 body {

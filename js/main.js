@@ -6,6 +6,7 @@ $('#interesttitle').click(function () {
 
 $('#share').jsSocials({
     shares: ['twitter', 'facebook', 'linkedin']
+    //Adds social icons to the page
 });
 
 //BEGIN SKILLS BAR
